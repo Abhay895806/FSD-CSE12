@@ -7,6 +7,9 @@ h1{
 }
 #one{
     color: red;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
 }
 #two{
     color: yellow;
