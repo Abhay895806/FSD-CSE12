@@ -3,9 +3,24 @@
     color: white;
     font-size: 30px;
     text-align: center;
+    text-decoration: line-through;
+    font-weight:900 ;
+    padding: 0px;
+    margin: 0px;
+
 
 }
 .head{
     color: green;
     font-size: 30px;
+    text-decoration: underline;
+}
+.box{
+    margin: 34px;
+    padding: 50px;
+    
+}
+div{
+    width: 400px;
+    height: 500px;
 }
