@@ -1,178 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Login Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Document</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-    }
-
-    .container {
+    table {
+      border-collapse: collapse;
+      border: 2px solid black;
       width: 100%;
+    }
+    th,td {
       border: 1px solid black;
+      padding: 8px;
     }
-
-    .header {
-      display: flex;
-      align-items: center;
-      background-color: #f4a460;
-      height: 60px;
+    #s {
+      background-color: rgb(233, 161, 88);
     }
-
-    .logo {
-      width: 100px;
+    #x {
+      background-color: rgb(247, 203, 163);
       text-align: center;
-      font-weight: bold;
-      border-right: 1px solid black;
     }
-
-    .website-name {
-      flex: 1;
-      text-align: center;
-      font-size: 24px;
-    }
-
-    .menu {
-      display: flex;
-      background-color: #fdebd0;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
-    }
-
-    .menu div {
-      flex: 1;
-      text-align: center;
-      padding: 10px;
-      border-right: 1px solid black;
-      cursor: pointer;
-    }
-
-    .menu div:last-child {
-      border-right: none;
-    }
-
-    .main {
-      display: flex;
-      min-height: 400px;
-    }
-
-    .sidebar {
-      width: 100px;
-      border-right: 1px solid black;
-      background-color: #f9f9f9;
-      padding-top: 20px;
-    }
-
-    .sidebar div {
-      padding: 10px;
-      text-align: center;
-      border-bottom: 1px solid #ccc;
-    }
-
-    .content {
-      flex: 1;
-      padding: 50px;
-    }
-
-    .content h3 {
-      margin-bottom: 20px;
-    }
-
-    .form-group {
-      margin-bottom: 20px;
-    }
-
-    .form-group label {
-      display: inline-block;
-      width: 100px;
-    }
-
-    .form-group input {
-      padding: 5px;
-      border: 2px solid black;
-      width: 200px;
-    }
-
-    .buttons {
-      margin-top: 20px;
-    }
-
-    .buttons input[type="submit"] {
-      background-color: white;
-      color: red;
-      font-weight: bold;
-      padding: 8px 16px;
-      border: 2px solid black;
-      margin-right: 20px;
-      cursor: pointer;
-    }
-
-    .buttons input[type="reset"] {
-      background-color: #f2f2f2;
-      padding: 8px 16px;
-      border: 1px solid #ccc;
-      cursor: pointer;
+    #v{
+        text-align: center;
     }
   </style>
 </head>
 <body>
-
-  <div class="container">
-    
-    <div class="header">
-      <div class="logo">Logo</div>
-      <div class="website-name">WebSite Name</div>
-    </div>
-
-    
-    <div class="menu">
-      <div>Home</div>
-      <div>Login</div>
-      <div>Registration</div>
-      <div>Catalogue</div>
-      <div>Cart</div>
-    </div>
-
-    
-    <div class="main">
-      
-      <div class="sidebar">
-        <div>CSE</div>
-        <div>ECE</div>
-        <div>EEE</div>
-        <div>CIVIL</div>
-      </div>
-
-      
-      <div class="content">
-        <h3>Login Page</h3>
-
-        <form>
-          <div class="form-group">
-            <label for="username">User Name:</label>
-            <input type="text" id="username" name="username">
-          </div>
-
-          <div class="form-group">
-            <label for="password">Passwords:</label>
-            <input type="password" id="password" name="password">
-          </div>
-
-          <div class="buttons">
-            <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-
+  <table>
+    <tr id="s">
+      <th colspan="1">logo</th>
+      <th colspan="4">website name</th>
+    </tr>
+    <tr id="x">
+      <td>Home</td>
+      <td>login</td>
+      <td>Registration</td>
+      <td>Catalogue</td>
+      <td>Cart</td>
+    </tr>
+    <tr>
+      <td>
+        CSE<br />
+        ECE<br />
+        EEE<br />
+        CIVIL
+      </td>
+      <td id="v" colspan="4">Description of the website</td>
+    </tr>
+  </table>
 </body>
 </html>
