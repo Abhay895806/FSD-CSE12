@@ -4,4 +4,7 @@
             border-color: yellow;
             border-style: solid;
         }
+        input[type = "text"]{
+            background-color: black;
+        }
     
