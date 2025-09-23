@@ -1,0 +1,10 @@
+div{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-style: normal;
+    font-size: medium;
+    color: red;
+}
+h1{
+    text-decoration: green wavy underline;
+}
