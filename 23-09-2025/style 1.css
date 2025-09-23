@@ -1,0 +1,21 @@
+div{
+    display: flex;
+     gap: 30px; 
+     padding: 20px;
+     margin: 30px;
+     text-align: justify;
+}
+#left{
+    width: 300px;
+     height: 200px;
+      background-color: aqua;
+       border-radius: 20px; 
+       padding: 20px;
+}
+#right{
+    width: 300px; 
+    height: 200px;
+     background-color: skyblue;
+      border-radius: 20px; 
+      padding: 20px;
+}
