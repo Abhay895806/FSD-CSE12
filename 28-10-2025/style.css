@@ -1,0 +1,28 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    gap: 20px;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color:yellow;
+    position: relative;
+    top: 50px;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color:green;
+    
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
