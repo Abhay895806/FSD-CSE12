@@ -6,10 +6,25 @@ div{
     animation-duration: 2s;
 }
 @keyframes example{
-    from {
+    /*from {
         background-color: aquamarine;
     }
     to{
         background-color: red;
-    }
+    }*/
+    0%{
+        background-color: aquamarine;}
+        25%{
+            background-color: green;
+        }
+        50%{
+            background-color: red;
+        }
+        75%{
+            background-color: blue;
+        }
+        100%{
+            background-color: yellow;
+        }
+    
 }
