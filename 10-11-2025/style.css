@@ -1,0 +1,36 @@
+:root {
+  --bg-header: #4CAF50;
+  --bg-about: #2196F3;
+  --bg-contact: #FF9800;
+  --bg-footer: #333;
+  --text-light: #ffffff;
+  --font-main: Arial, sans-serif;
+  --padding: 2rem;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+}
+
+.section {
+  padding: var(--padding);
+  color: var(--text-light);
+  text-align: center;
+}
+
+#welcome {
+  background: var(--bg-header);
+}
+
+#about {
+  background: var(--bg-about);
+}
+
+#contact {
+  background: var(--bg-contact);
+}
+
+#footer {
+  background: var(--bg-footer);
+}
